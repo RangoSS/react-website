@@ -1,0 +1,112 @@
+body{
+     border:0px;
+     margin:0px;
+	 padding:0px}
+p{margin-bottom: 0px}
+ 
+/*container for logo,nav*/
+.container{
+     padding: 5px;
+	
+	 border:solid thin black;}	 
+/*logo*/
+.logo{
+     width:50px;
+     height:50px;
+     float:left;
+     border:solid thin black}
+/*primary-nav*/
+.primary-nav{
+     color:black;
+     font-weight: 400px;
+     text-align:right;
+    
+     margin-left:56px;
+     height:50px;	
+     border:solid thin red}
+/*seconday-nav*/
+.secondary-nav{
+     top:0;
+     position:relative;
+     text-align: center;
+     width:100%;
+     
+     height:20px;
+     border:solid thin blue}
+
+#toplist{
+     list-style-type:none;
+	 padding:0px;
+	 margin:0px;}
+#toplist li{    
+	 display:inline-block;}
+#toplist a{    
+	 text-decoration:none;
+	 color:black;}
+#toplist li:hover{
+    background-color: aqua;
+}
+#toplist a:hover{
+    color:royalblue;
+    font-weight:700px;
+    
+}
+/*tertiaty-nav*/
+.tertiary-nav{
+     
+     text-align:center;
+     border: solid thin black;}
+/*main*/
+
+.box1{
+      background-color:lightgray;     
+      border:solid thin blue;
+     }	 
+#figure{
+     background-color:white;
+	 margin-right:0px;
+	 padding: 5px;
+     display:inline-block;
+	 border:solid thin black;
+	 }
+#figcaption{
+    margin-bottom: 0px;
+	padding:2px;
+	border-top:solid thin red}
+
+#button{
+    border: solid thin red;
+    float: right;
+    border-radius: 20px;   
+}
+	 
+/*primary-footer*/
+.primary-footer{  
+     padding: 5px;
+     text-align: center;
+    
+     border:solid thin green}
+/*secondary-footer*/
+.secondary-footer{
+     position:static;
+	 background-color:#faa200;
+     text-align:center;
+     height:20px;
+     border:solid thin black}
+.box{   
+     text-align: center;
+     display: inline-block;
+     width: 30%;
+     margin-right:20px;
+     border: solid thin red;
+}
+#contact{     
+     list-style-type: none;
+     padding:0px;
+     margin:0px;}
+
+#contact a{
+     font-size: 15px;
+     color:black;
+     text-decoration: none;}
+
